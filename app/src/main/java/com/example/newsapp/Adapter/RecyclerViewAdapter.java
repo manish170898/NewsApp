@@ -70,7 +70,6 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
                 intent.putExtra("imageUrl",a.getUrlToImage());
                 intent.putExtra("url",a.getUrl());
                 intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-
                 context.startActivity(intent);
             }
         });
